@@ -1,0 +1,20 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^9.1.2",
+    "inquirer-menu": "^1.0.0",
+    "json-server": "^0.17.0",
+    "require": "^2.4.20"
+  }
+}
