@@ -79,20 +79,6 @@ answers
             cpf: answers2.cpf,
             saldo: 0,
           };
-          const answers = inquirer.prompt([
-            {
-              name: 'menu',
-              message: 'Que opção deseja?',
-              type: 'list',
-              choices: [
-                { name: 'Criar Conta', value: 1 },
-                { name: 'Depositar', value: 2 },
-                { name: 'Consultar Saldo', value: 3 },
-                { name: 'Sacar', value: 4 },
-                { name: 'Sair', value: 5 },
-              ],
-            },
-          ]);
           // ADD NO BANCO DE DADOS
           users.push(user);
 
@@ -143,20 +129,6 @@ answers
           let user = {
             saldo: answers3.deposito,
           };
-          const answers = inquirer.prompt([
-            {
-              name: 'menu',
-              message: 'Que opção deseja?',
-              type: 'list',
-              choices: [
-                { name: 'Criar Conta', value: 1 },
-                { name: 'Depositar', value: 2 },
-                { name: 'Consultar Saldo', value: 3 },
-                { name: 'Sacar', value: 4 },
-                { name: 'Sair', value: 5 },
-              ],
-            },
-          ]);
           //buscando conta do usuario antes de salvar no json
 
           users.map((user) => {
